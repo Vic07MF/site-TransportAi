@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TransportAI</title>
-    <meta name="description" content="TransportAI: Solução inovadora para otimização de rotas e gestão de entregas. Reduza custos e aumente a eficiência.">
-    
+    <meta name="description"
+        content="TransportAI: Solução inovadora para otimização de rotas e gestão de entregas. Reduza custos e aumente a eficiência.">
+
     <!-- Open Graph -->
     <meta property="og:title" content="TransportAI">
     <meta property="og:description" content="Planejamento inteligente de rotas e gestão de entregas em tempo real">
     <meta property="og:type" content="website">
-    
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="carousel.js" defer></script>
 
-    
+
 
 </head>
+
 <body>
     <!-- Header -->
     <header class="site-header">
         <div class="container">
             <div class="header-inner">
+                <!-- ...existing code... -->
                 <a href="#" class="logo">
-                    <img src="assets/logonome.png" alt="TransportAI" style="height:40px;">
+                    <div style="display: flex; align-items: center;">
+                        <h1 style="color: var(--blue-1); margin: 0;">Transport</h1>
+                        <h1 style="color: var(--green); margin: 0 0 0;">AI</h1>
+                    </div>
                 </a>
+                <!-- ...existing code... -->
                 <nav class="header-nav">
                     <a href="#problema">Problema</a>
                     <a href="#solucao">Solução</a>
@@ -40,21 +47,20 @@
 
     <!-- Hero Section -->
     <section class="hero">
-    <div class="container">
-        <div class="hero-inner">
-            <div class="hero-text">
-                <img src="assets/logo.png" alt="TransportAI" class="hero-logo" style="height: 80px; margin-bottom: 24px;">
-                <h1>TransportAI — Roteirização e gestão de entregas</h1>
-                <p>O software conecta empresa e motorista, 
-                    trazendo mais controle, eficiência e segurança em cada transporte.</p>
-                <a href="#funcionalidades" class="btn btn-primary">Ver Demo</a>
-                <a href="mailto:" class="btn btn-ghost">Agendar Apresentação</a>
-            </div>
-            <div class="hero-image">
-                <img src="/placeholder.svg?height=400&width=300" alt="Protótipo do TransportAI">
+        <div class="container">
+            <div class="hero-inner">
+                <div class="hero-text">
+                    <h1>TransportAI — Roteirização e gestão de entregas</h1>
+                    <p>O software conecta empresa e motorista,
+                        trazendo mais controle, eficiência e segurança em cada transporte.</p>
+                    <a href="#funcionalidades" class="btn btn-primary">Ver Demo</a>
+                    <a href="mailto: transportwithai@gmail.com?subject=Solicitação de Demo - TransportAI" class="btn btn-primary">Agendar Demo</a>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/logo.png" alt="TransportAI">
+                </div>
             </div>
         </div>
-    </div>
     </section>
 
     <!-- Problem Section -->
@@ -111,7 +117,8 @@
                 </div>
                 <div class="solution-card">
                     <div class="problem-icon">
-                        <img src="assets/icons/notification.svg" alt="Sino de Notificação" style="width: 24px; height: 24px;">
+                        <img src="assets/icons/notification.svg" alt="Sino de Notificação"
+                            style="width: 24px; height: 24px;">
                     </div>
                     <h3>Monitoramento Real</h3>
                     <p>Acompanhe todas as entregas em tempo real com notificações automáticas</p>
@@ -143,44 +150,46 @@
 
     <!-- funcionalidades Section -->
     <section id="funcionalidades" class="section funcionalidades">
-    <div class="container">
-        <h2 class="section-title">Funcionalidades Principais</h2>
-        <div class="carousel">
-            <button class="carousel-btn prev" aria-label="Anterior">&#10094;</button>
-        <div class="carousel-track">
-            <div class="carousel-slide">
-                <img src="assets/screenshots/menu tecnico.jpeg" alt="Painel do técnico — controle centralizado">
-                <span>Painel do técnico — Controle centralizado de todas as ações.</span>
+        <div class="container">
+            <h2 class="section-title">Funcionalidades Principais</h2>
+            <div class="carousel">
+                <button class="carousel-btn prev" aria-label="Anterior">&#10094;</button>
+                <div class="carousel-window">
+                    <div class="carousel-track">
+                        <div class="carousel-slide">
+                            <img src="assets/screenshots/menutecnico.jpeg" alt="Painel do técnico — controle centralizado">
+                            <span>Painel do técnico — Controle centralizado de todas as ações.</span>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/screenshots/cadastrotecnico.jpeg" alt="Cadastro do Técnico — informações organizadas">
+                            <span>Cadastros Técnico — Permite o acesso rápido ao controle de veículos, cargas e clientes, com monitoramento de todas as operações em tempo real.</span>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/screenshots/planejamento tecnico.jpeg" alt="Planejamento de Rotas — Coordenação Logística">
+                            <span>Planejamento de Rotas — Tela de planejamento onde são definidas as rotas, com base na análise da IA, garantindo um fluxo logístico eficiente e otimizado.</span>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/screenshots/entregas tecnico.jpeg" alt="Gestão de Entregas — Acompanhamento Completo">
+                            <span>Gestão de Entregas — Acompanhamento do status das entregas, gerenciar relatórios e acessar documentos para garantir que as entregas ocorram sem contratempos.</span>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/screenshots/menu admin.jpeg" alt="Menu do Admin — Controle Total">
+                            <span>Menu do Admin — Acesso a funções de gerenciamento, relatórios detalhados e configurações do sistema, garantindo um controle total sobre todas as operações.</span>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/screenshots/menu caminhoneiro.jpeg" alt="Menu do Caminhoneiro — Facilidade na Rota">
+                            <span>Menu do Caminhoneiro — Informações sobre rotas, check-lists de segurança e registros de ocorrências, oferecendo praticidade para o motorista.</span>
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/screenshots/entrega atual caminhoneiro.jpeg" alt="Entrega Atual — Monitoramento de Viagem">
+                            <span>Entrega Atual — Dados detalhados sobre o status da carga, documentos e informações essenciais para o motorista durante a viagem.</span>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next" aria-label="Próximo">&#10095;</button>
             </div>
-                <div class="carousel-slide">
-                    <img src="assets/screenshots/cadastro tecnico.jpeg" alt="Cadastro do Técnico — informações organizadas">
-                    <span>Cadastros Técnico — Permite o acesso rápido ao controle de veículos, cargas e clientes, com monitoramento de todas as operações em tempo real.</span>
-                </div>
-                <div class="carousel-slide">
-                    <img src="assets/screenshots/planejamento tecnico.jpeg" alt="Planejamento de Rotas — Coordenação Logística">
-                    <span>Planejamento de Rotas — Tela de planejamento onde são definidas as rotas, com base na ánalise da IA, garantindo um fluxo logístico eficiente e otimizado.</span>
-                </div>
-                <div class="carousel-slide">
-                    <img src="assets/screenshots/entregas tecnico.jpeg" alt="Gestão de Entregas — Acompanhamento Completo">
-                    <span>Gestão de Entregas — Acompanhamento do status das entregas, gerenciar relatórios e acessar documentos para garantir que as entregas ocorram sem contratempos.</span>
-                </div>
-                <div class="carousel-slide">
-                    <img src="assets/screenshots/menu admin.jpeg" alt="Menu do Admin — Controle Total">
-                    <span>Menu do Admin — Acesso a funções de gerenciamento, relatórios detalhados e configurações do sistema, garantindo um controle total sobre todas as operações.</span>
-                </div>
-                <div class="carousel-slide">
-                    <img src="assets/screenshots/menu caminhoneiro.jpeg" alt="Menu do Caminhoneiro — Facilidade na Rota">
-                    <span>Menu do Caminhoneiro — Informações sobre rotas, check-lists de segurança e registros de ocorrências, oferecendo praticidade para o motorista.</span>
-                </div>
-                <div class="carousel-slide">
-                    <img src="assets/screenshots/entrega atual caminhoneiro.jpeg" alt="Entrega Atual — Monitoramento de Viagem">
-                    <span>Entrega Atual —  Dados detalhados sobre o status da carga, documentos e informações essenciais para o motorista durante a viagem.</span>
-                </div>
-            </div>
-            <button class="carousel-btn next" aria-label="Próximo">&#10095;</button>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- Tech Stack -->
     <section class="section">
@@ -235,41 +244,49 @@
         </div>
     </section>
 
-    
+
 
     <!-- CTA Section -->
     <section id="contato" class="section cta">
         <div class="container">
             <h2>Quer ver ao vivo?</h2>
             <p style="font-size: 20px; margin-bottom: 32px;">Agende uma demonstração completa do TransportAI</p>
-            <a href="mailto:?subject=Solicitação de Demo - TransportAI" class="btn btn-primary">Agendar Demo</a>
+            <a href="mailto: transportwithai@gmail.com?subject=Solicitação de Demo - TransportAI" class="btn btn-primary">Agendar Demo</a>
         </div>
     </section>
-    
+
 
     <!-- Footer -->
-<footer class="footer">
-    <div class="container">
-        <div class="footer-links">
-            <a href="https://www.linkedin.com/in/lucy-piza" target="_blank" rel="noopener" class="linkedin-link">
-                <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="linkedin-icon"> Lucy
-            </a>
-            <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener" class="linkedin-link">
-                <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="linkedin-icon"> Miguel
-            </a>
-            <a href="https://www.linkedin.com/in/murilo-fornel-de-almeida" target="_blank" rel="noopener" class="linkedin-link">
-                <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="linkedin-icon"> Murilo
-            </a>
-            <a href="https://www.linkedin.com/in/nicolas-rafael-vieira" target="_blank" rel="noopener" class="linkedin-link">
-                <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="linkedin-icon"> Nicolas
-            </a>
-            <a href="https://www.linkedin.com/in/victoria-maiorino-fornel" target="_blank" rel="noopener" class="linkedin-link">
-                <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="linkedin-icon"> Victória
-            </a>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/lucy-piza" target="_blank" rel="noopener" class="linkedin-link">
+                    <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="linkedin-icon"> Lucy
+                </a>
+                <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener" class="linkedin-link">
+                    <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="linkedin-icon"> Miguel
+                </a>
+                <a href="https://www.linkedin.com/in/murilo-fornel-de-almeida" target="_blank" rel="noopener"
+                    class="linkedin-link">
+                    <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="linkedin-icon"> Murilo
+                </a>
+                <a href="https://www.linkedin.com/in/nicolas-rafael-vieira" target="_blank" rel="noopener"
+                    class="linkedin-link">
+                    <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="linkedin-icon"> Nicolas
+                </a>
+                <a href="https://www.linkedin.com/in/victoria-maiorino-fornel" target="_blank" rel="noopener"
+                    class="linkedin-link">
+                    <img src="assets/icons/linkedin.svg" alt="LinkedIn" class="linkedin-icon"> Victória
+                </a>
+            </div>
+            <p>Agradecimentos especiais aos professores orientadores</p>
+            <p style="margin-top: 16px; opacity: 0.8;">TransportAI © 2025 - Projeto de TCC</p>
         </div>
-        <p>Agradecimentos especiais aos professores orientadores</p>
-        <p style="margin-top: 16px; opacity: 0.8;">TransportAI © 2025 - Projeto de TCC</p>
-    </div>
-</footer>
+    </footer>
+
+        <script src="carousel.js"></script>
+
+
 </body>
+
 </html>
