@@ -1,4 +1,4 @@
-# 🚀 Transport AI
+# 🚛 Transport AI
 
 Aplicação web desenvolvida para exibir informações sobre o TransportAI.
 
